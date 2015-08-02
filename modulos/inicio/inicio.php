@@ -2,11 +2,6 @@
 <div style="width:100%;margin:auto">
 <center>
 
-<?php
-include_once("slider/slider5.php");
-//include_once("pagina4.php");
-?>
-
 <div style="height:400px;">
   
   <div style="float:left;width:580px;height:400px; border:none">
