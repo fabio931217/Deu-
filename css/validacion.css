@@ -1,0 +1,10 @@
+/*
+div.error { display: none !important; }
+*/
+
+input {	border: 1px solid black; }
+input.checkbox { border: none }
+input:focus,select:focus {/* border: 1px solid black !important;*/ }
+input.error,select.error,textarea.error { border: 1px solid red !important; }
+
+form.cmxform .gray * { color: gray; }

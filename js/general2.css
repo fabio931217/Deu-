@@ -1,0 +1,205 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    border-color: silver;
+}
+
+/*************************************************************/
+a{
+    text-decoration:none;
+} 
+
+body
+{
+    margin:0;
+	background-color:#FBFBFB;
+}
+
+div.body
+{
+    width:1000px;
+    margin:auto;
+}
+
+div.container{
+    background-color:white
+
+}
+
+/*
+div.container, div.pie
+{
+        
+        padding:5px 10px;
+        background-color:white;
+ 
+}
+*/
+
+.pie
+{
+    background: rgb(122,188,255);
+    background: -moz-linear-gradient(top,  rgba(122,188,255,1) 0%, rgba(96,171,248,1) 44%, rgba(64,150,238,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(122,188,255,1)), color-stop(44%,rgba(96,171,248,1)), color-stop(100%,rgba(64,150,238,1)));
+    background: -webkit-linear-gradient(top,  rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%);
+    background: -o-linear-gradient(top,  rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%);
+    background: -ms-linear-gradient(top,  rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%);
+    background: linear-gradient(to bottom,  rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=0 );	
+    text-align:center;
+}
+
+div.content
+{
+    min-height:300px;
+    padding:10px;
+}
+
+
+/*************************************************************/
+input 
+{
+    border-color: silver !important;
+}
+
+body
+{
+    zoom:110%;
+}
+.fuente td, .fuente th 
+{
+    font-size:12px;
+}
+
+.fuente2 td, .fuente2 th 
+{
+    font-size:12px;
+}
+
+.fuentediv 
+{
+    font-size:12px;
+}
+
+textarea {
+    resize:none;
+
+}
+
+
+/******************************************************************************/
+
+.tdi
+{
+    width:1px;
+    text-align:left;
+    vertical-align:middle;
+    white-space:nowrap;
+}
+
+.tdc
+{
+    width:1px;
+    padding-left:3px;
+    padding-right:3px;
+    vertical-align:middle;
+}
+
+.tdd
+{
+    padding-right:2px;
+    vertical-align:middle;
+}
+
+
+.tdd input, .tdd select
+{
+    width:100%;
+    padding:0px;
+    margin:0px;
+
+    /*text-transform:uppercase;*/
+    line-height:20px;
+    height:20px;
+    border:1px solid silver;
+}  
+
+.tdd textarea
+{
+    width:99%;
+
+}
+
+/********************************************************/
+.acciones
+{
+    margin-top:10px;
+    text-align:right;
+    border-top:1px solid silver;
+
+}
+.dlg-acciones
+{
+    margin-top:10px;
+    text-align:right;
+}
+
+.titulo
+{
+    font-size:12pt;
+    font-weight:bold;
+    margin:5px 0;
+    text-transform:uppercase;
+}
+
+/********************************************************/
+
+.multi-select
+{
+    display:inline-block;
+    width:175px;
+
+
+}
+
+.multi-select input
+{
+    float:left;
+    width:15px;
+    height:15px;
+
+}
+
+.multi-select label
+{
+    float:left;
+
+}
+
+div.progreso
+{
+    text-align:center;
+    font-weight:bold;
+}
+
+/********************************************************/
+.boton-busqueda
+{
+    float:right;
+    height:14px; 
+    width:14px; 
+    margin:3px 6px 3px 0px;
+    padding:1px 3px 3px 3px; 
+    border-radius:5px; 
+    cursor:pointer
+}
+
+.div-form-busqueda
+{
+    display:none;
+    padding:5px;
+}
+
+.vacio {
+   color:#999;
+}

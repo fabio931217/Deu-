@@ -1,0 +1,47 @@
+.label
+{
+  
+    height: 30px;
+    width: 100%;
+   /*color:#067338;*/
+  border-radius: 8px ;
+  color:#000;
+ 
+  
+}
+select
+{
+  text-align:center; 
+    height: 25px;
+   /*color:#067338;*/
+  border-radius: 8px ;
+  color:#000;
+  border: 1px solid #004000;
+  cursor: pointer;
+  width: 100%;
+}
+input[type='text'],input[type='number'], input[type='date']
+{
+  
+    height: 24px;
+    width: 100%;
+   /*color:#067338;*/
+  border-radius: 4px ;
+  color:#000;
+  border: 1px solid #004000;
+  
+}
+
+
+.clsAgregarFila,.clsAgregarFila2
+{
+   width: 20%;
+   cursor: pointer;
+}
+.clsEliminarFila2,.clsEliminarFila
+{
+   width: 100%;
+   cursor: pointer;
+   border: none;
+}
+  

@@ -1,0 +1,44 @@
+
+#bottom .infoboxes .box
+{position:relative;width:100%;float:left;padding:12px 30px;margin-bottom:20px;border-width:1px;border-style:solid;background:white;color:#8b8b8b}
+#bottom .infoboxes .fake-checkbox-1
+{top:19px;left:-9px}
+#bottom .infoboxes .box.b1
+{border-color:#a3c9f9;font-size: 12px;text-align: left;}
+#bottom .infoboxes .box.b2
+{border-color:#d6e7aa;font-size: 12px;text-align: left;}
+#bottom .infoboxes .box.b3
+{border-color:#ffbd99;font-size: 12px;text-align: left;}
+
+#bottom .infoboxes .box.b1 h3
+{border-color:#a3c9f9;font-size: 16px;text-align: left;}
+#bottom .infoboxes .box.b2 h3
+{border-color:#d6e7aa;font-size: 16px;text-align: left;}
+#bottom .infoboxes .box.b3 h3
+{border-color:#ffbd99;font-size: 16px;text-align: left;}
+
+
+@media screen and (min-width:801px){#bottom .infoboxes h3
+	{margin-bottom:16px;font-size:20px}
+	#bottom .infoboxes .box{font-size:14px;float:left;width:30.33333%;margin-right:4.5%}
+	#bottom .infoboxes .box:last-child
+	{margin-right:0}}
+	@media screen and (max-width:800px){#bottom .infoboxes h3{margin-bottom:2%;font-size:1.4em}
+	#bottom .infoboxes .box{font-size:1em}}
+
+	html.desktop .fake-checkbox-1,html.tv .fake-checkbox-1
+	{width:18px;height:18px;position:absolute;background:url("../img/sprite-1c4ca.png?1");background-position:0 0}
+
+	html.desktop .fake-checkbox-1.blue,html.tv .fake-checkbox-1.blue{background-position:0 -79px}html.desktop .fake-checkbox-1.green,html.tv .fake-checkbox-1.green
+	{background-position:0 -98px}
+	html.desktop .fake-checkbox-1.orange,html.tv .fake-checkbox-1.orange
+	{background-position:0 -117px}html.desktop .input2-group,html.tv .input2-group
+	{position:relative}
+	
+#bottom
+{
+	background-image: url(../img/bg-main-rpt.jpg);
+	border: none;
+     padding:20px 0px 10px 20px;
+	min-height: 120px;
+}

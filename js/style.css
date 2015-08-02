@@ -1,0 +1,25 @@
+ul, ol {
+    list-style: none;
+}
+
+
+a {
+    color: #004756;
+    text-decoration: underline;
+  
+}
+
+
+.gridster {
+    width: 100%;
+    margin:auto;
+    padding-left: 50px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+
+.gridster ul li:hover {
+    box-shadow: 0px 0px 12px;
+    cursor: pointer;
+}
